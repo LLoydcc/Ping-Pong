@@ -10,6 +10,7 @@ void setup() {
   
   area = new BlockArea(block, 5);    
   game = new Game(ball, area, rectangle);
+  
 }
 
 void draw() {  
