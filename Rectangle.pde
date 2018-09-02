@@ -19,12 +19,12 @@ class Rectangle{
   void moveLeft(float speed){
     if(position.x > 0){
       position.x = position.x - speed;
-    }      
+    }     
   }  
   
   void moveRight(float speed){   
     if(position.x + longitude < width){
       position.x = position.x + speed;
-    }    
+    }   
   }
 }

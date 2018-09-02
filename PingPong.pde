@@ -1,4 +1,4 @@
-Ball ball = new Ball(400, 375, 5);
+Ball ball = new Ball(400, 300, 5);
 Rectangle rectangle = new Rectangle(375, 385, 50, 10);
 Block block = new Block(0, 0, 20);
 BlockArea area;
@@ -10,6 +10,11 @@ void setup() {
   
   area = new BlockArea(block, 5);    
   game = new Game(ball, area, rectangle);
+  
+  
+  for(Block block : area.area){
+    //System.out.println(block.position.y + " " + block.position.x);
+  }
   
 }
 
